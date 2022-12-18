@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<tr>
+<td> <center><font size=4><b>Student Registration Form</b></font></center>
+</td> <br>
+</tr>
+<tr>
+<td> <center> Name:<input type=text name=textnames id="textname" size="30"></center></td>   
+</tr>
+<tr>
+<td><center> Father Name:<input type="text" name="fathername" id="fathername"
+size="30"></center></td>
+</tr>
+<tr>
+<td><center>Postal Address: <input type="text" name="paddress" id="paddress" size="30"></center></td>
+</tr>
+<tr>
+<td><center> Personal Address<input type="text" name="personaladdress"
+id="personaladdress" size="30"></center></td>
+</tr>
+<tr>
+<td><center> Sex<input type="radio" name="sex" value="male" size="10"> Male
+<input type="radio" name="sex" value="Female" size="10">Female </center></td>
+</tr>
+<tr>
+<center><td>City</td>
+<td><select name="City">
+<option value="-1" selected>select..</option>
+<option value="Lahore">Lahore</option>
+<option value="Bahawalnagar">Bahawalnagar</option>
+<option value="Karachi">Karachi</option>
+<option value="Islamabad">Islamabad</option>
+</select></td></center>
+</tr>
+<tr>
+<center><td>Course</td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="BS IT">BS IT</option>
+<option value="MCS">MCS</option>
+<option value="MBA">MBA</option>
+<option value="BSCS">BSCS</option>
+</select></td></center>
+</tr>
+<tr>
+<center><td>District</td>
+<td><select name="District">
+<option value="-1" selected>select..</option>
+<option value"Lahore">Lahore</option>
+<option value="Bahawalnagar">Bahawalnagar</option>
+<option value="Karachi">Karachi</option>
+<option value="Islamabad">Islamabad</option>
+</select></td></center>
+</tr>
+<tr>
+<center><td>Province</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="Punjab">Punjab</option>
+<option value="Sindh">Sindh</option>
+<option value="KPK">KPK</option>
+<option value="Balochistan">Balochistan</option>
+</select></td></center>
+</tr>
+<tr>
+<center><td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+</center>
+</tr>
+<tr>
+<center><td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+</center>
+<tr>
+<center><td>DOB</td>
+<td><input type="text" name="dob" id="dob" size="30"></td></center>
+</tr>
+
+<tr>
+<center><td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td></center>
+</tr>
+<tr><center>
+<input type="submit" value="Submit Form" /></td></center>
+</tr>
+</table>
+</form>
+</body>
+</html>
